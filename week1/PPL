@@ -1,0 +1,13 @@
+import random
+n=random.randint(1,100)
+while true:
+    print("=====Enter the number to match the random number=====")
+    guess=int(input("enter the number"))
+    if(guess<n):
+    print("number entered is too high")
+    elif(guess<n):
+    print("number entered is too low")
+    else:
+    print("congrulations you are great!")
+    print("numbered matched")
+    break
