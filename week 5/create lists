@@ -1,0 +1,10 @@
+my_list = [1, 5, 10, 15, 20]
+ print(my_list)
+
+ print([True, False, False, "1"])
+
+ my_list = list(["Lists", "are", "useful!"])
+ print(my_list)
+
+ my_list = [num for num in range (1,6)]
+ print(my_list)
