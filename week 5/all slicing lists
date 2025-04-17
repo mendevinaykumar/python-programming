@@ -1,0 +1,142 @@
+numbers = [1, 2, 3, 4, 5]
+ pairs = [(num, num * 2) for num in numbers]
+
+ print(pairs)
+
+ python_datatypes = ["lists"]
+ python_datatypes.extend(["tuples", "sets"])
+ print(python_datatypes)
+
+ blue_shades = ['navy', 'sky blue', 'saphire', 'powder blue', 'teal', 'turquoise']
+ blue_shades[2] = 'sapphire'
+
+ print(blue_shades)
+
+ blue_shades = ['navy', 'sky blue', 'sapphire', 'powder blue', 'teal', 'turquoise']
+ blue_shades[0:2] = ['denim', 'aqua']
+
+ print(blue_shades)
+
+ blue_shades = ['navy', 'sky blue', 'sapphire', 'powder blue', 'teal', 'turquoise']
+ blue_shades[0:1] = ['denim', 'aqua']
+ print(blue_shades)
+
+ blue_shades = ['navy', 'sky blue', 'sapphire', 'powder blue', 'teal', 'turquoise']
+ blue_shades[0:4] = ['denim', 'aqua']
+ print(blue_shades)
+
+ blue_shades = ['navy', 'sky blue', 'sapphire', 'powder blue', 'teal', 'turquoise']
+
+ blue_shades = ['cobalt', 'azure', 'ice blue']
+ print(blue_shades)
+
+ space_movies = ['Interstellar', 'Gravity', 'The Martian', 'Apollo 13', 'Star Wars']
+ print(space_movies)
+
+ del space_movies[2]
+ print(space_movies)
+
+ space_movies = ['Interstellar', 'Gravity', 'The Martian', 'Apollo 13', 'Star Wars']
+
+ del space_movies[1:3]
+ print(space_movies)
+
+ space_movies = ['Interstellar', 'Gravity', 'The Martian', 'Apollo 13', 'Star Wars']
+ print(space_movies)
+
+ space_movies.remove('Gravity')
+ print(space_movies)
+
+ space_movies = ['Interstellar', 'Gravity', 'The Martian', 'Apollo 13', 'Star Wars']
+ space_movies.clear()
+ print(space_movies)
+
+ space_movies = ['Interstellar', 'Gravity', 'The Martian', 'Apollo 13', 'Star Wars']
+
+ removed_movie = space_movies.pop(2)
+ print("The removed movie is = " + removed_movie)
+ print(space_movies)
+
+ numbers = [1, 2, 3, 4, 5]
+ squares = [num ** 2 for num in numbers]
+
+ print(squares)
+
+ numbers = [1, 2, 3, 4, 5]
+ squares = [num ** 2 for num in numbers]
+
+ print(squares)
+
+ words = ["hoodie", "rivers", "cat", "monitor", "bag", "cup"]
+ short_words = [word for word in words if len(word) <= 5]
+
+ print(short_words)
+
+ numbers = [1, 2, 3, 4, 5]
+ pairs = [(num, num * 2) for num in numbers]
+
+ print(pairs)
+
+ songs = ['Neon Lights', 'Pieces', 'Everything']
+ uppercase_songs = [song.upper() for song in songs]
+
+ print(uppercase_songs)
+
+ my_matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+ transpose = [[row[i] for row in my_matrix] for i in range(len(my_matrix[0]))]
+
+ print(transpose)
+
+ python_versions = ["Python 2", "Python 3"]
+ python_versions.append("Python 3.11")
+
+ print(python_versions)
+
+ python_modules = ["NumPy", "Pandas"]
+
+ additional_modules = ["Matplotlib", "scikit-learn"]
+ python_modules.extend(additional_modules)
+
+ print(python_modules)
+
+ programming_languages = ["C", "Java", "Python", "Ruby"]
+ programming_languages.insert(1, "C++")
+
+ print(programming_languages)
+
+
+ web_frameworks = ["Django", "Flask", "Pyramid", "FastAPI"]
+ removed_framework = web_frameworks.pop(2)
+
+ print(web_frameworks)
+
+ scripting_languages = ["Python", "Ruby", "Perl"]
+ scripting_languages.clear()
+
+ print(scripting_languages)
+
+ languages = ["C", "C++", "Python", "Java", "Python"]
+ python_index = languages.index("Python")
+
+ print(python_index)
+
+ version_numbers = [2, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+ python3_count = version_numbers.count(3)
+
+ print(python3_count)
+
+ numeric_versions = [2.7, 3.0, 3.6, 3.7, 3.8, 3.9]
+ numeric_versions.sort()
+
+ print(numeric_versions)
+
+ libraries = ["NumPy", "Pandas", "Matplotlib", "Scikit-Learn"]
+ libraries.reverse()
+
+ print(libraries)
+
+ original_list = ["Python", "is", "so" , "cool"]
+copied_list = original_list.copy()
+
+ print(copied_list)
+
